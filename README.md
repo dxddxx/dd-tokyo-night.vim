@@ -1,6 +1,6 @@
 # dd-tokyo-night.vim
 
-- all colors from the [original](https://github.com/tokyo-night/tokyo-night-vscode-theme) Tokyo Night theme.
+- all colors from the [original](https://github.com/tokyo-night/tokyo-night-vscode-theme) Tokyo Night theme, truly authentic
 - not base16, but uses 16 colors according to the base16 template
 
 ## Colors
