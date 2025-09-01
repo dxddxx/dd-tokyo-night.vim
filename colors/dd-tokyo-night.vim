@@ -1,8 +1,8 @@
 " vi:syntax=vim
 
 " tinted-vim (https://github.com/tinted-theming/tinted-vim)
-" Scheme name: {{scheme-name}}
-" Scheme author: {{scheme-author}}
+" Scheme name: dd-tokyo-night
+" Scheme author: enkia, dxddxx
 " Template author: Tinted Theming (https://github.com/tinted-theming)
 
 " This enables the coresponding base16-shell script to run so that
@@ -60,12 +60,12 @@ let s:cterm0E  = '05'
 let s:cterm0F  = '17'
 let s:cterm10  = s:cterm00
 let s:cterm11  = s:cterm00
-let s:cterm12  = '01' " 08
-let s:cterm13  = '03' " 0A
-let s:cterm14  = '02' " 0B
-let s:cterm15  = '06' " 0C
-let s:cterm16  = '04' " 0D
-let s:cterm17  = '05' " 0E
+let s:cterm12  = '01'
+let s:cterm13  = '03'
+let s:cterm14  = '02'
+let s:cterm15  = '06'
+let s:cterm16  = '04'
+let s:cterm17  = '05'
 
 " base16_colorspace` and `base16colorspace` are legacy properties and
 " exist to keep existing setups from breaking
