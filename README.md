@@ -5,7 +5,7 @@
 
 ## Colors
 
-| color  | hex code  | base16 template color description                                        | Tokyo Night color description |
+| color  | hex       | base16 color description                                                 | Tokyo Night color description |
 | ------ | --------- | ---------------------------------                                        | ----------------------------- |
 | base00 | `#1a1b26` | Default Background                                                       | Editor Background (Night)     |
 | base01 | `#24283b` | Lighter Background (Used for status bars, line number and folding marks) | Editor Background (Storm)     |
