@@ -160,7 +160,7 @@ let s:attrs = {
       \}
 
 " Theme setup
-let g:colors_name = 'base16-dd-tokyo-night'
+let g:colors_name = 'ddtokyonight'
 
 " Highlighting function
 " Optional variables are attributes and guisp
