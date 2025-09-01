@@ -148,7 +148,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "ddtokyonight"
+let g:colors_name = "dd-tokyo-night"
 
 " Highlighting function
 " Optional variables are attributes and guisp
