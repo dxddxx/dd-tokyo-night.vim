@@ -60,12 +60,12 @@ let s:cterm0E  = '05'
 let s:cterm0F  = '17'
 let s:cterm10  = s:cterm00
 let s:cterm11  = s:cterm00
-let s:cterm12  = 'f7768e' " 08
-let s:cterm13  = 'e0af68' " 0A
-let s:cterm14  = '73daca' " 0B
-let s:cterm15  = '7dcfff' " 0C
-let s:cterm16  = '7aa2f7' " 0D
-let s:cterm17  = 'bb9af7' " 0E
+let s:cterm12  = '01' " 08
+let s:cterm13  = '03' " 0A
+let s:cterm14  = '02' " 0B
+let s:cterm15  = '06' " 0C
+let s:cterm16  = '04' " 0D
+let s:cterm17  = '05' " 0E
 
 " base16_colorspace` and `base16colorspace` are legacy properties and
 " exist to keep existing setups from breaking
@@ -95,22 +95,22 @@ call s:create_color_globals()
 
 " Integrated Terminal colors
 let s:colors = [
-  \ '#1a1b26 ',
-  \ '#f7768e ',
-  \ '#73daca ',
-  \ '#e0af68 ',
-  \ '#7aa2f7 ',
-  \ '#bb9af7 ',
-  \ '#7dcfff ',
-  \ '#a9b1d6 ',
-  \ '#565f89 ',
-  \ '#f7768e ',
-  \ '#73daca ',
-  \ '#e0af68 ',
-  \ '#7aa2f7 ',
-  \ '#bb9af7 ',
-  \ '#7dcfff ',
-  \ '#c0caf5 '
+  \ '#1a1b26',
+  \ '#f7768e',
+  \ '#73daca',
+  \ '#e0af68',
+  \ '#7aa2f7',
+  \ '#bb9af7',
+  \ '#7dcfff',
+  \ '#a9b1d6',
+  \ '#565f89',
+  \ '#f7768e',
+  \ '#73daca',
+  \ '#e0af68',
+  \ '#7aa2f7',
+  \ '#bb9af7',
+  \ '#7dcfff',
+  \ '#c0caf5'
 \]
 
 if has('nvim')
