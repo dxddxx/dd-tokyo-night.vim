@@ -5,6 +5,8 @@
 " Scheme author: enkia, dxddxx
 " Template author: Tinted Theming (https://github.com/tinted-theming)
 
+" NOTE: Spell highlights are modified by dxddxx
+
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by tinted-shell scripts
 " User must set this variable in .vimrc
@@ -305,10 +307,15 @@ hi! link SnippetTabstop Visual
 call <sid>hi('SpecialKey',     s:gui03, '', s:cterm03, '', '', '')
 
 " Spell
-call <sid>hi('SpellBad',       '', '', s:ctermbg, s:cterm12, 'undercurl', s:gui08)
-call <sid>hi('SpellLocal',     '', '', s:ctermbg, s:cterm15, 'undercurl', s:gui15)
-call <sid>hi('SpellCap',       '', '', s:ctermbg, s:cterm16, 'undercurl', s:gui16)
-call <sid>hi('SpellRare',      '', '', s:ctermbg, s:cterm0E, 'undercurl', s:gui0E)
+" call <sid>hi('SpellBad',       '', '', s:ctermbg, s:cterm12, 'undercurl', s:gui08)
+" call <sid>hi('SpellLocal',     '', '', s:ctermbg, s:cterm15, 'undercurl', s:gui15)
+" call <sid>hi('SpellCap',       '', '', s:ctermbg, s:cterm16, 'undercurl', s:gui16)
+" call <sid>hi('SpellRare',      '', '', s:ctermbg, s:cterm0E, 'undercurl', s:gui0E)
+" fixed by dxddxx
+call <sid>hi('SpellBad',       '', '', '', '', 'undercurl', s:gui08)
+call <sid>hi('SpellLocal',     '', '', '', '', 'undercurl', s:gui15)
+call <sid>hi('SpellCap',       '', '', '', '', 'undercurl', s:gui16)
+call <sid>hi('SpellRare',      '', '', '', '', 'undercurl', s:gui0E)
 
 call <sid>hi('StatusLine',     s:gui04, s:gui01, s:cterm04, s:cterm01, 'none', '')
 call <sid>hi('StatusLineNC',   s:gui03, s:gui01, s:cterm03, s:cterm01, 'none', '')
