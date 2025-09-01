@@ -13,10 +13,10 @@
 | base03 | `#565f89` | Comments, Invisibles, Line Highlighting                        | Comments                            |
 | base04 | `#9aa5ce` | Dark Foreground (Used for status bars)                         | Markdown Text, HTML Text            |
 | base05 | `#a9b1d6` | Default Foreground, Caret, Delimiters, Operators               | Editor Foreground                   |
-| base06 | `#9ece6a` | Light Foreground (Not often used)                              | Strings, CSS class names            |
+| base06 | `#b4f9f8` | Light Foreground (Not often used)                              | Regex literal strings               |
 | base07 | `#c0caf5` | Light Background (Not often used)                              | Variables, Class names, Terminal White |
 | base08 | `#f7768e` | Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted | This keyword, HTML elements, Regex group symbol, CSS units, Terminal Red |
-| base09 | `#2ac3de` | Integers, Boolean, Constants, XML Attributes, Markup Link Url  | Language support functions, CSS HTML elements |
+| base09 | `#ff9e64` | Integers, Boolean, Constants, XML Attributes, Markup Link Url  | Number and Boolean constants, Language support constants |
 | base0A | `#e0af68` | Classes, Markup Bold, Search Text Background                   | Function parameters, Regex character sets, Terminal Yellow |
 | base0B | `#73daca` | Strings, Inherited Class, Markup Code, Diff Inserted           | Object literal keys, Markdown links, Terminal Green |
 | base0C | `#7dcfff` | Support, Regular Expressions, Escape Characters, Markup Quotes | Object properties, Regex quantifiers and flags, Markdown headings, Terminal Cyan, Markdown code, Import/export keywords |
