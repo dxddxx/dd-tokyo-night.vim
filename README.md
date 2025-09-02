@@ -1,10 +1,10 @@
 # dd-tokyo-night.vim
 
 地道tokyo-night
-:老东京人儿用的shar就是地道
+: 老东京人儿用的shar就是地道
 
 - all colors from the [original](https://github.com/tokyo-night/tokyo-night-vscode-theme) Tokyo Night theme by [enkia](https://github.com/enkia), truly authentic
-- not base16, but uses 16 colors according to the base16 [template](https://github.com/chriskempson/base16-vim/blob/master/templates/default.mustache)
+- uses base16 [template](https://github.com/chriskempson/base16-vim/blob/master/templates/default.mustache)
 
 ## Colors
 
