@@ -63,7 +63,6 @@ let s:tmpgui0C = s:gui0C
 let s:tmpgui0D = s:gui0D
 let s:tmpgui0E = s:gui0E
 let s:tmpgui0F = s:gui0F
-
 let s:gui00 = s:tmpgui00
 let s:gui01 = s:tmpgui01
 let s:gui02 = s:tmpgui02
@@ -80,6 +79,22 @@ let s:gui0C = s:tmpgui05
 let s:gui0D = s:tmpgui04
 let s:gui0E = s:tmpgui05
 let s:gui0F = s:tmpgui03
+unlet s:tmpgui00
+unlet s:tmpgui01
+unlet s:tmpgui02
+unlet s:tmpgui03
+unlet s:tmpgui04
+unlet s:tmpgui05
+unlet s:tmpgui06
+unlet s:tmpgui07
+unlet s:tmpgui08
+unlet s:tmpgui09
+unlet s:tmpgui0A
+unlet s:tmpgui0B
+unlet s:tmpgui0C
+unlet s:tmpgui0D
+unlet s:tmpgui0E
+unlet s:tmpgui0F
 
 " Terminal colors
 let s:cterm00  = '00'
