@@ -47,22 +47,39 @@ let s:gui17        = 'bb9af7' " 0E
 
 " Overide colors to mono
 
-let s:gui00 = s:gui00
-let s:gui01 = s:gui01
-let s:gui02 = s:gui02
-let s:gui03 = s:gui03
-let s:gui04 = s:gui05
-let s:gui05 = s:gui07
-let s:gui06 = s:gui05
-let s:gui07 = s:gui07
-let s:gui08 = s:gui08
-let s:gui09 = s:gui05
-let s:gui0A = s:gui0A
-let s:gui0B = s:gui0B
-let s:gui0C = s:gui05
-let s:gui0D = s:gui04
-let s:gui0E = s:gui05
-let s:gui0F = s:gui03
+let s:tmpgui00 = s:gui00
+let s:tmpgui01 = s:gui01
+let s:tmpgui02 = s:gui02
+let s:tmpgui03 = s:gui03
+let s:tmpgui04 = s:gui04
+let s:tmpgui05 = s:gui05
+let s:tmpgui06 = s:gui06
+let s:tmpgui07 = s:gui07
+let s:tmpgui08 = s:gui08
+let s:tmpgui09 = s:gui09
+let s:tmpgui0A = s:gui0A
+let s:tmpgui0B = s:gui0B
+let s:tmpgui0C = s:gui0C
+let s:tmpgui0D = s:gui0D
+let s:tmpgui0E = s:gui0E
+let s:tmpgui0F = s:gui0F
+
+let s:gui00 = s:tmpgui00
+let s:gui01 = s:tmpgui01
+let s:gui02 = s:tmpgui02
+let s:gui03 = s:tmpgui03
+let s:gui04 = s:tmpgui05
+let s:gui05 = s:tmpgui07
+let s:gui06 = s:tmpgui05
+let s:gui07 = s:tmpgui07
+let s:gui08 = s:tmpgui08
+let s:gui09 = s:tmpgui05
+let s:gui0A = s:tmpgui0A
+let s:gui0B = s:tmpgui0B
+let s:gui0C = s:tmpgui05
+let s:gui0D = s:tmpgui04
+let s:gui0E = s:tmpgui05
+let s:gui0F = s:tmpgui03
 
 " Terminal colors
 let s:cterm00  = '00'
